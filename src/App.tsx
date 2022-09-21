@@ -1,6 +1,6 @@
 import './App.css';
 import {Routes, Route} from 'react-router-dom'
-import { LandingPage } from './Pages';
+import { LandingPage, Tasks } from './Pages';
 import {Login, SignUp} from './Components'
 
 
@@ -12,6 +12,7 @@ function App() {
           <Route path='/' element={<Login />}></Route>
           <Route path='/SignUp' element={<SignUp/>}></Route>
         </Route>
+        <Route path='/Tasks' element={<Tasks />}/>
       </Routes>
     </div>
   );

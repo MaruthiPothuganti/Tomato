@@ -24,7 +24,7 @@ export const LandingPage = (): JSX.Element => {
                     </div>
               </section>
               <section className="w-full">
-                  <h2 className="font-bold text-center p-2">When I made it look way too easy (Way too easy) - <i>Brodha V</i> </h2>
+                  <h2 className="font-bold text-center p-2">They said I can't, they said I won't. But I did the impossible, for sure, When I made it look way too easy - <i>Brodha V</i> </h2>
               </section>
             <img className="sm:inline-flex w-auto h-20 absolute top-[-5%] left-[50%] translate-x-[-50%] md:hidden bg-slate-50 m-2 p-4 rounded-full" src="https://res.cloudinary.com/doo5jbomi/image/upload/v1663773722/PomodoroApp/logo192_p6zuag.png" alt="tomato" />
         </div>
