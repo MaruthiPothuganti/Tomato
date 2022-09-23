@@ -1,5 +1,6 @@
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
+import { FaPause, FaPlay, GrPowerReset } from "../Components/icons";
 
 export const TaskTimer = (): JSX.Element => {
   return (
@@ -20,6 +21,17 @@ export const TaskTimer = (): JSX.Element => {
             </section>
             <h2 className="text-2xl text-center m-3">Random Task Title</h2>
             <CircularProgressbar value={100} text={`${100}%`} />
+            <section className="m-4 flex gap-6">
+              <button>
+                <FaPlay size={28} title="Start" />
+              </button>
+              <button>
+                <FaPause size={28} title="Pause" />
+              </button>
+              <button>
+                <GrPowerReset size={28} title="Reset" />
+              </button>
+            </section>
           </div>
         </section>
         <section className="w-full  grid place-items-center md:w-1/2">
